@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FCDDACE0183E09E200A8FB35 /* AsiLibraryDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDDACDF183E09E200A8FB35 /* AsiLibraryDebug.a */; };
+		FCDDACE1183E09E200A8FB35 /* AsiLibraryDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDDACDF183E09E200A8FB35 /* AsiLibraryDebug.a */; };
+		FCDDAD02183E0AB300A8FB35 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDDAD01183E0AB300A8FB35 /* CFNetwork.framework */; };
+		FCDDAD04183E0AB900A8FB35 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDDAD03183E0AB900A8FB35 /* MobileCoreServices.framework */; };
+		FCDDAD06183E0ACA00A8FB35 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDDAD05183E0ACA00A8FB35 /* SystemConfiguration.framework */; };
+		FCDDAD08183E0AD100A8FB35 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDDAD07183E0AD100A8FB35 /* libxml2.dylib */; };
+		FCDDAD0A183E0AD600A8FB35 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDDAD09183E0AD600A8FB35 /* libz.dylib */; };
+		FCDDAD0E183E103A00A8FB35 /* DownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDDAD0D183E103A00A8FB35 /* DownloadFile.m */; };
+		FCDDAD0F183E103A00A8FB35 /* DownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDDAD0D183E103A00A8FB35 /* DownloadFile.m */; };
+		FCDDAD12183E143600A8FB35 /* MultiDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDDAD11183E143600A8FB35 /* MultiDownload.m */; };
+		FCDDAD13183E143600A8FB35 /* MultiDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDDAD11183E143600A8FB35 /* MultiDownload.m */; };
 		FCE6B059183DFC8B006B76A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE6B058183DFC8B006B76A8 /* Foundation.framework */; };
 		FCE6B05B183DFC8B006B76A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE6B05A183DFC8B006B76A8 /* CoreGraphics.framework */; };
 		FCE6B05D183DFC8B006B76A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE6B05C183DFC8B006B76A8 /* UIKit.framework */; };
@@ -34,6 +45,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FCDDACDF183E09E200A8FB35 /* AsiLibraryDebug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = AsiLibraryDebug.a; path = ../AsiLibraryDebug.a; sourceTree = "<group>"; };
+		FCDDACE3183E09EA00A8FB35 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
+		FCDDACE4183E09EA00A8FB35 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
+		FCDDACE5183E09EA00A8FB35 /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
+		FCDDACE6183E09EA00A8FB35 /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
+		FCDDACE7183E09EA00A8FB35 /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
+		FCDDACE8183E09EA00A8FB35 /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
+		FCDDACE9183E09EA00A8FB35 /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
+		FCDDACEA183E09EA00A8FB35 /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
+		FCDDACEB183E09EA00A8FB35 /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
+		FCDDACEC183E09EA00A8FB35 /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
+		FCDDACED183E09EA00A8FB35 /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
+		FCDDACEE183E09EA00A8FB35 /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
+		FCDDACF0183E09EA00A8FB35 /* ASIWebPageRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIWebPageRequest.h; sourceTree = "<group>"; };
+		FCDDACF2183E09EA00A8FB35 /* ASICloudFilesCDNRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICloudFilesCDNRequest.h; sourceTree = "<group>"; };
+		FCDDACF3183E09EA00A8FB35 /* ASICloudFilesContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICloudFilesContainer.h; sourceTree = "<group>"; };
+		FCDDACF4183E09EA00A8FB35 /* ASICloudFilesContainerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICloudFilesContainerRequest.h; sourceTree = "<group>"; };
+		FCDDACF5183E09EA00A8FB35 /* ASICloudFilesContainerXMLParserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICloudFilesContainerXMLParserDelegate.h; sourceTree = "<group>"; };
+		FCDDACF6183E09EA00A8FB35 /* ASICloudFilesObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICloudFilesObject.h; sourceTree = "<group>"; };
+		FCDDACF7183E09EA00A8FB35 /* ASICloudFilesObjectRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICloudFilesObjectRequest.h; sourceTree = "<group>"; };
+		FCDDACF8183E09EA00A8FB35 /* ASICloudFilesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICloudFilesRequest.h; sourceTree = "<group>"; };
+		FCDDACFA183E09EA00A8FB35 /* ASINSXMLParserCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSXMLParserCompat.h; sourceTree = "<group>"; };
+		FCDDACFB183E09EA00A8FB35 /* ASIS3Bucket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3Bucket.h; sourceTree = "<group>"; };
+		FCDDACFC183E09EA00A8FB35 /* ASIS3BucketObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3BucketObject.h; sourceTree = "<group>"; };
+		FCDDACFD183E09EA00A8FB35 /* ASIS3BucketRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3BucketRequest.h; sourceTree = "<group>"; };
+		FCDDACFE183E09EA00A8FB35 /* ASIS3ObjectRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3ObjectRequest.h; sourceTree = "<group>"; };
+		FCDDACFF183E09EA00A8FB35 /* ASIS3Request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3Request.h; sourceTree = "<group>"; };
+		FCDDAD00183E09EA00A8FB35 /* ASIS3ServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIS3ServiceRequest.h; sourceTree = "<group>"; };
+		FCDDAD01183E0AB300A8FB35 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FCDDAD03183E0AB900A8FB35 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FCDDAD05183E0ACA00A8FB35 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FCDDAD07183E0AD100A8FB35 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		FCDDAD09183E0AD600A8FB35 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FCDDAD0C183E103A00A8FB35 /* DownloadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadFile.h; sourceTree = "<group>"; };
+		FCDDAD0D183E103A00A8FB35 /* DownloadFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadFile.m; sourceTree = "<group>"; };
+		FCDDAD10183E143600A8FB35 /* MultiDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiDownload.h; sourceTree = "<group>"; };
+		FCDDAD11183E143600A8FB35 /* MultiDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiDownload.m; sourceTree = "<group>"; };
 		FCE6B055183DFC8B006B76A8 /* LeishiDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeishiDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE6B058183DFC8B006B76A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FCE6B05A183DFC8B006B76A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +108,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDDAD0A183E0AD600A8FB35 /* libz.dylib in Frameworks */,
+				FCDDAD08183E0AD100A8FB35 /* libxml2.dylib in Frameworks */,
+				FCDDAD06183E0ACA00A8FB35 /* SystemConfiguration.framework in Frameworks */,
+				FCDDAD04183E0AB900A8FB35 /* MobileCoreServices.framework in Frameworks */,
+				FCDDAD02183E0AB300A8FB35 /* CFNetwork.framework in Frameworks */,
 				FCE6B05B183DFC8B006B76A8 /* CoreGraphics.framework in Frameworks */,
+				FCDDACE0183E09E200A8FB35 /* AsiLibraryDebug.a in Frameworks */,
 				FCE6B05D183DFC8B006B76A8 /* UIKit.framework in Frameworks */,
 				FCE6B059183DFC8B006B76A8 /* Foundation.framework in Frameworks */,
 			);
@@ -71,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE6B078183DFC8B006B76A8 /* XCTest.framework in Frameworks */,
+				FCDDACE1183E09E200A8FB35 /* AsiLibraryDebug.a in Frameworks */,
 				FCE6B07A183DFC8B006B76A8 /* UIKit.framework in Frameworks */,
 				FCE6B079183DFC8B006B76A8 /* Foundation.framework in Frameworks */,
 			);
@@ -79,9 +134,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FCDDACDE183E09D800A8FB35 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDAD0B183E100D00A8FB35 /* multifilesDownload */,
+				FCDDACE2183E09EA00A8FB35 /* asiHttprequest */,
+			);
+			name = lib;
+			path = LeishiDownload/lib;
+			sourceTree = "<group>";
+		};
+		FCDDACE2183E09EA00A8FB35 /* asiHttprequest */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDACDF183E09E200A8FB35 /* AsiLibraryDebug.a */,
+				FCDDACE3183E09EA00A8FB35 /* ASIAuthenticationDialog.h */,
+				FCDDACE4183E09EA00A8FB35 /* ASICacheDelegate.h */,
+				FCDDACE5183E09EA00A8FB35 /* ASIDataCompressor.h */,
+				FCDDACE6183E09EA00A8FB35 /* ASIDataDecompressor.h */,
+				FCDDACE7183E09EA00A8FB35 /* ASIDownloadCache.h */,
+				FCDDACE8183E09EA00A8FB35 /* ASIFormDataRequest.h */,
+				FCDDACE9183E09EA00A8FB35 /* ASIHTTPRequest.h */,
+				FCDDACEA183E09EA00A8FB35 /* ASIHTTPRequestConfig.h */,
+				FCDDACEB183E09EA00A8FB35 /* ASIHTTPRequestDelegate.h */,
+				FCDDACEC183E09EA00A8FB35 /* ASIInputStream.h */,
+				FCDDACED183E09EA00A8FB35 /* ASINetworkQueue.h */,
+				FCDDACEE183E09EA00A8FB35 /* ASIProgressDelegate.h */,
+				FCDDACEF183E09EA00A8FB35 /* ASIWebPageRequest */,
+				FCDDACF1183E09EA00A8FB35 /* CloudFiles */,
+				FCDDACF9183E09EA00A8FB35 /* S3 */,
+			);
+			path = asiHttprequest;
+			sourceTree = "<group>";
+		};
+		FCDDACEF183E09EA00A8FB35 /* ASIWebPageRequest */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDACF0183E09EA00A8FB35 /* ASIWebPageRequest.h */,
+			);
+			path = ASIWebPageRequest;
+			sourceTree = "<group>";
+		};
+		FCDDACF1183E09EA00A8FB35 /* CloudFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDACF2183E09EA00A8FB35 /* ASICloudFilesCDNRequest.h */,
+				FCDDACF3183E09EA00A8FB35 /* ASICloudFilesContainer.h */,
+				FCDDACF4183E09EA00A8FB35 /* ASICloudFilesContainerRequest.h */,
+				FCDDACF5183E09EA00A8FB35 /* ASICloudFilesContainerXMLParserDelegate.h */,
+				FCDDACF6183E09EA00A8FB35 /* ASICloudFilesObject.h */,
+				FCDDACF7183E09EA00A8FB35 /* ASICloudFilesObjectRequest.h */,
+				FCDDACF8183E09EA00A8FB35 /* ASICloudFilesRequest.h */,
+			);
+			path = CloudFiles;
+			sourceTree = "<group>";
+		};
+		FCDDACF9183E09EA00A8FB35 /* S3 */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDACFA183E09EA00A8FB35 /* ASINSXMLParserCompat.h */,
+				FCDDACFB183E09EA00A8FB35 /* ASIS3Bucket.h */,
+				FCDDACFC183E09EA00A8FB35 /* ASIS3BucketObject.h */,
+				FCDDACFD183E09EA00A8FB35 /* ASIS3BucketRequest.h */,
+				FCDDACFE183E09EA00A8FB35 /* ASIS3ObjectRequest.h */,
+				FCDDACFF183E09EA00A8FB35 /* ASIS3Request.h */,
+				FCDDAD00183E09EA00A8FB35 /* ASIS3ServiceRequest.h */,
+			);
+			path = S3;
+			sourceTree = "<group>";
+		};
+		FCDDAD0B183E100D00A8FB35 /* multifilesDownload */ = {
+			isa = PBXGroup;
+			children = (
+				FCDDAD0C183E103A00A8FB35 /* DownloadFile.h */,
+				FCDDAD0D183E103A00A8FB35 /* DownloadFile.m */,
+				FCDDAD10183E143600A8FB35 /* MultiDownload.h */,
+				FCDDAD11183E143600A8FB35 /* MultiDownload.m */,
+			);
+			path = multifilesDownload;
+			sourceTree = "<group>";
+		};
 		FCE6B04C183DFC8A006B76A8 = {
 			isa = PBXGroup;
 			children = (
+				FCDDACDE183E09D800A8FB35 /* lib */,
 				FCE6B05E183DFC8B006B76A8 /* LeishiDownload */,
 				FCE6B07D183DFC8B006B76A8 /* LeishiDownloadTests */,
 				FCE6B057183DFC8B006B76A8 /* Frameworks */,
@@ -101,6 +237,11 @@
 		FCE6B057183DFC8B006B76A8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCDDAD09183E0AD600A8FB35 /* libz.dylib */,
+				FCDDAD07183E0AD100A8FB35 /* libxml2.dylib */,
+				FCDDAD05183E0ACA00A8FB35 /* SystemConfiguration.framework */,
+				FCDDAD03183E0AB900A8FB35 /* MobileCoreServices.framework */,
+				FCDDAD01183E0AB300A8FB35 /* CFNetwork.framework */,
 				FCE6B058183DFC8B006B76A8 /* Foundation.framework */,
 				FCE6B05A183DFC8B006B76A8 /* CoreGraphics.framework */,
 				FCE6B05C183DFC8B006B76A8 /* UIKit.framework */,
@@ -249,7 +390,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCDDAD12183E143600A8FB35 /* MultiDownload.m in Sources */,
 				FCE6B06F183DFC8B006B76A8 /* ViewController.m in Sources */,
+				FCDDAD0E183E103A00A8FB35 /* DownloadFile.m in Sources */,
 				FCE6B069183DFC8B006B76A8 /* AppDelegate.m in Sources */,
 				FCE6B065183DFC8B006B76A8 /* main.m in Sources */,
 			);
@@ -260,6 +403,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCE6B084183DFC8B006B76A8 /* LeishiDownloadTests.m in Sources */,
+				FCDDAD0F183E103A00A8FB35 /* DownloadFile.m in Sources */,
+				FCDDAD13183E143600A8FB35 /* MultiDownload.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +525,16 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeishiDownload/LeishiDownload-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${SDK_DIR}/usr/include/libxml2",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "LeishiDownload/LeishiDownload-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/MINI2/ctz/project/LeishiDownload/LeishiDownload/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -393,7 +547,16 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeishiDownload/LeishiDownload-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${SDK_DIR}/usr/include/libxml2",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "LeishiDownload/LeishiDownload-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/MINI2/ctz/project/LeishiDownload/LeishiDownload/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -416,6 +579,10 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "LeishiDownloadTests/LeishiDownloadTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/MINI2/ctz/project/LeishiDownload/LeishiDownload/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -435,6 +602,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LeishiDownload/LeishiDownload-Prefix.pch";
 				INFOPLIST_FILE = "LeishiDownloadTests/LeishiDownloadTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/MINI2/ctz/project/LeishiDownload/LeishiDownload/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -460,6 +631,7 @@
 				FCE6B089183DFC8B006B76A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCE6B08A183DFC8B006B76A8 /* Build configuration list for PBXNativeTarget "LeishiDownloadTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +640,7 @@
 				FCE6B08C183DFC8B006B76A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

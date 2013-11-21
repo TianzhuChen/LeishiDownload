@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ASIHTTPRequest.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    ASIHTTPRequest *rquest=[ASIHTTPRequest requestWithURL:[NSURL URLWithString:@"http://blog.sina.com.cn/s/blog_6ba7867b01015l8b.html"]];
+    [rquest setCompletionBlock:^{
+        NSLog(@"req>>>%@",[rquest responseString]);
+    }];
+    [rquest startAsynchronous];
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

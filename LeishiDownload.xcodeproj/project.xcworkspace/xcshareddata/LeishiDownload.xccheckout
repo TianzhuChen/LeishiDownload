@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>38D78568-5F8C-4C92-BA24-3A21DA79576E</string>
+	<string>AA02DFA7-A6B8-4361-9BB6-A1E31F39AC5C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>LeishiDownload</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/TianzhuChen/LeishiDownload.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>LeishiDownload/LeishiDownload.xcodeproj/project.xcworkspace</string>
+	<string>LeishiDownload.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DD11E64D-7BD6-48CF-9FC8-6ED195C90880</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/TianzhuChen/LeishiDownload.git</string>
