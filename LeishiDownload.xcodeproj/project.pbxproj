@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCE6B059183DFC8B006B76A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE6B058183DFC8B006B76A8 /* Foundation.framework */; };
+		FCE6B05B183DFC8B006B76A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE6B05A183DFC8B006B76A8 /* CoreGraphics.framework */; };
+		FCE6B05D183DFC8B006B76A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE6B05C183DFC8B006B76A8 /* UIKit.framework */; };
+		FCE6B063183DFC8B006B76A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCE6B061183DFC8B006B76A8 /* InfoPlist.strings */; };
+		FCE6B065183DFC8B006B76A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE6B064183DFC8B006B76A8 /* main.m */; };
+		FCE6B069183DFC8B006B76A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE6B068183DFC8B006B76A8 /* AppDelegate.m */; };
+		FCE6B06C183DFC8B006B76A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCE6B06A183DFC8B006B76A8 /* Main.storyboard */; };
+		FCE6B06F183DFC8B006B76A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE6B06E183DFC8B006B76A8 /* ViewController.m */; };
+		FCE6B071183DFC8B006B76A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE6B070183DFC8B006B76A8 /* Images.xcassets */; };
+		FCE6B078183DFC8B006B76A8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE6B077183DFC8B006B76A8 /* XCTest.framework */; };
+		FCE6B079183DFC8B006B76A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE6B058183DFC8B006B76A8 /* Foundation.framework */; };
+		FCE6B07A183DFC8B006B76A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCE6B05C183DFC8B006B76A8 /* UIKit.framework */; };
+		FCE6B082183DFC8B006B76A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCE6B080183DFC8B006B76A8 /* InfoPlist.strings */; };
+		FCE6B084183DFC8B006B76A8 /* LeishiDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE6B083183DFC8B006B76A8 /* LeishiDownloadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCE6B07B183DFC8B006B76A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE6B04D183DFC8A006B76A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE6B054183DFC8B006B76A8;
+			remoteInfo = LeishiDownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCE6B055183DFC8B006B76A8 /* LeishiDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeishiDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE6B058183DFC8B006B76A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCE6B05A183DFC8B006B76A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCE6B05C183DFC8B006B76A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCE6B060183DFC8B006B76A8 /* LeishiDownload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeishiDownload-Info.plist"; sourceTree = "<group>"; };
+		FCE6B062183DFC8B006B76A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCE6B064183DFC8B006B76A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCE6B066183DFC8B006B76A8 /* LeishiDownload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeishiDownload-Prefix.pch"; sourceTree = "<group>"; };
+		FCE6B067183DFC8B006B76A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCE6B068183DFC8B006B76A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCE6B06B183DFC8B006B76A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCE6B06D183DFC8B006B76A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCE6B06E183DFC8B006B76A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCE6B070183DFC8B006B76A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FCE6B076183DFC8B006B76A8 /* LeishiDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeishiDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE6B077183DFC8B006B76A8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FCE6B07F183DFC8B006B76A8 /* LeishiDownloadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeishiDownloadTests-Info.plist"; sourceTree = "<group>"; };
+		FCE6B081183DFC8B006B76A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCE6B083183DFC8B006B76A8 /* LeishiDownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeishiDownloadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE6B052183DFC8B006B76A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE6B05B183DFC8B006B76A8 /* CoreGraphics.framework in Frameworks */,
+				FCE6B05D183DFC8B006B76A8 /* UIKit.framework in Frameworks */,
+				FCE6B059183DFC8B006B76A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE6B073183DFC8B006B76A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE6B078183DFC8B006B76A8 /* XCTest.framework in Frameworks */,
+				FCE6B07A183DFC8B006B76A8 /* UIKit.framework in Frameworks */,
+				FCE6B079183DFC8B006B76A8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCE6B04C183DFC8A006B76A8 = {
+			isa = PBXGroup;
+			children = (
+				FCE6B05E183DFC8B006B76A8 /* LeishiDownload */,
+				FCE6B07D183DFC8B006B76A8 /* LeishiDownloadTests */,
+				FCE6B057183DFC8B006B76A8 /* Frameworks */,
+				FCE6B056183DFC8B006B76A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE6B056183DFC8B006B76A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE6B055183DFC8B006B76A8 /* LeishiDownload.app */,
+				FCE6B076183DFC8B006B76A8 /* LeishiDownloadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE6B057183DFC8B006B76A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCE6B058183DFC8B006B76A8 /* Foundation.framework */,
+				FCE6B05A183DFC8B006B76A8 /* CoreGraphics.framework */,
+				FCE6B05C183DFC8B006B76A8 /* UIKit.framework */,
+				FCE6B077183DFC8B006B76A8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCE6B05E183DFC8B006B76A8 /* LeishiDownload */ = {
+			isa = PBXGroup;
+			children = (
+				FCE6B067183DFC8B006B76A8 /* AppDelegate.h */,
+				FCE6B068183DFC8B006B76A8 /* AppDelegate.m */,
+				FCE6B06A183DFC8B006B76A8 /* Main.storyboard */,
+				FCE6B06D183DFC8B006B76A8 /* ViewController.h */,
+				FCE6B06E183DFC8B006B76A8 /* ViewController.m */,
+				FCE6B070183DFC8B006B76A8 /* Images.xcassets */,
+				FCE6B05F183DFC8B006B76A8 /* Supporting Files */,
+			);
+			path = LeishiDownload;
+			sourceTree = "<group>";
+		};
+		FCE6B05F183DFC8B006B76A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCE6B060183DFC8B006B76A8 /* LeishiDownload-Info.plist */,
+				FCE6B061183DFC8B006B76A8 /* InfoPlist.strings */,
+				FCE6B064183DFC8B006B76A8 /* main.m */,
+				FCE6B066183DFC8B006B76A8 /* LeishiDownload-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FCE6B07D183DFC8B006B76A8 /* LeishiDownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE6B083183DFC8B006B76A8 /* LeishiDownloadTests.m */,
+				FCE6B07E183DFC8B006B76A8 /* Supporting Files */,
+			);
+			path = LeishiDownloadTests;
+			sourceTree = "<group>";
+		};
+		FCE6B07E183DFC8B006B76A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCE6B07F183DFC8B006B76A8 /* LeishiDownloadTests-Info.plist */,
+				FCE6B080183DFC8B006B76A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE6B054183DFC8B006B76A8 /* LeishiDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE6B087183DFC8B006B76A8 /* Build configuration list for PBXNativeTarget "LeishiDownload" */;
+			buildPhases = (
+				FCE6B051183DFC8B006B76A8 /* Sources */,
+				FCE6B052183DFC8B006B76A8 /* Frameworks */,
+				FCE6B053183DFC8B006B76A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeishiDownload;
+			productName = LeishiDownload;
+			productReference = FCE6B055183DFC8B006B76A8 /* LeishiDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCE6B075183DFC8B006B76A8 /* LeishiDownloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE6B08A183DFC8B006B76A8 /* Build configuration list for PBXNativeTarget "LeishiDownloadTests" */;
+			buildPhases = (
+				FCE6B072183DFC8B006B76A8 /* Sources */,
+				FCE6B073183DFC8B006B76A8 /* Frameworks */,
+				FCE6B074183DFC8B006B76A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE6B07C183DFC8B006B76A8 /* PBXTargetDependency */,
+			);
+			name = LeishiDownloadTests;
+			productName = LeishiDownloadTests;
+			productReference = FCE6B076183DFC8B006B76A8 /* LeishiDownloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE6B04D183DFC8A006B76A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Iwinad;
+				TargetAttributes = {
+					FCE6B075183DFC8B006B76A8 = {
+						TestTargetID = FCE6B054183DFC8B006B76A8;
+					};
+				};
+			};
+			buildConfigurationList = FCE6B050183DFC8A006B76A8 /* Build configuration list for PBXProject "LeishiDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCE6B04C183DFC8A006B76A8;
+			productRefGroup = FCE6B056183DFC8B006B76A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE6B054183DFC8B006B76A8 /* LeishiDownload */,
+				FCE6B075183DFC8B006B76A8 /* LeishiDownloadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCE6B053183DFC8B006B76A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE6B071183DFC8B006B76A8 /* Images.xcassets in Resources */,
+				FCE6B063183DFC8B006B76A8 /* InfoPlist.strings in Resources */,
+				FCE6B06C183DFC8B006B76A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE6B074183DFC8B006B76A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE6B082183DFC8B006B76A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE6B051183DFC8B006B76A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE6B06F183DFC8B006B76A8 /* ViewController.m in Sources */,
+				FCE6B069183DFC8B006B76A8 /* AppDelegate.m in Sources */,
+				FCE6B065183DFC8B006B76A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE6B072183DFC8B006B76A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE6B084183DFC8B006B76A8 /* LeishiDownloadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCE6B07C183DFC8B006B76A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE6B054183DFC8B006B76A8 /* LeishiDownload */;
+			targetProxy = FCE6B07B183DFC8B006B76A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCE6B061183DFC8B006B76A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE6B062183DFC8B006B76A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCE6B06A183DFC8B006B76A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE6B06B183DFC8B006B76A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FCE6B080183DFC8B006B76A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCE6B081183DFC8B006B76A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCE6B085183DFC8B006B76A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCE6B086183DFC8B006B76A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE6B088183DFC8B006B76A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeishiDownload/LeishiDownload-Prefix.pch";
+				INFOPLIST_FILE = "LeishiDownload/LeishiDownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCE6B089183DFC8B006B76A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeishiDownload/LeishiDownload-Prefix.pch";
+				INFOPLIST_FILE = "LeishiDownload/LeishiDownload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FCE6B08B183DFC8B006B76A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeishiDownload.app/LeishiDownload";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeishiDownload/LeishiDownload-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LeishiDownloadTests/LeishiDownloadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FCE6B08C183DFC8B006B76A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeishiDownload.app/LeishiDownload";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeishiDownload/LeishiDownload-Prefix.pch";
+				INFOPLIST_FILE = "LeishiDownloadTests/LeishiDownloadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE6B050183DFC8A006B76A8 /* Build configuration list for PBXProject "LeishiDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE6B085183DFC8B006B76A8 /* Debug */,
+				FCE6B086183DFC8B006B76A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE6B087183DFC8B006B76A8 /* Build configuration list for PBXNativeTarget "LeishiDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE6B088183DFC8B006B76A8 /* Debug */,
+				FCE6B089183DFC8B006B76A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FCE6B08A183DFC8B006B76A8 /* Build configuration list for PBXNativeTarget "LeishiDownloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE6B08B183DFC8B006B76A8 /* Debug */,
+				FCE6B08C183DFC8B006B76A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCE6B04D183DFC8A006B76A8 /* Project object */;
+}
