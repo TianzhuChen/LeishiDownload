@@ -11,4 +11,5 @@
 @implementation DownloadFile
 @synthesize downloadPath,tempSavePath,savePath;
 @synthesize tag,downloadPriority;
+@synthesize downloadRequest;
 @end

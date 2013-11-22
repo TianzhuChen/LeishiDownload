@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ASIHTTPRequest.h"
 
 @interface DownloadFile : NSObject
 //标记
@@ -19,4 +20,6 @@
 @property(nonatomic,strong) NSString *savePath;
 //文件下载临时目录
 @property(nonatomic,strong) NSString *tempSavePath;
+
+@property(nonatomic,strong) ASIHTTPRequest *downloadRequest;
 @end

@@ -8,13 +8,15 @@
 
 #import <Foundation/Foundation.h>
 #import "DownloadFile.h"
+#import "ASIHTTPRequest.h"
+#import "ASINetworkQueue.h"
 
 extern NSString *const NotificationQueueDownloadComplete;
 extern NSString *const NotificationFileDownloadComplete;
 extern NSString *const NotificationDownloadFailed;
 
 @interface MultiDownload : NSObject
--(MultiDownload *)sharedInstance;
++(MultiDownload *)sharedInstance;
 /**
  *add file to download queue
  */
@@ -30,6 +32,7 @@ extern NSString *const NotificationDownloadFailed;
 -(void)cancleDownload;
 
 -(void)addNotification:(NSString *)notificationName
-              selector:(SEL)selector;
+              selector:(SEL)selector
+              delegate:(id)delegate;
 -(void)removeAllNotifications;
 @end
